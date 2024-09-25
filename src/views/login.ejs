@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina De Login</title>
+
+    <style>
+        h1{
+          text-align: center;
+        }
+
+        form{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input{
+            height: 200px;
+            width: 500px;
+        }
+
+        label{
+            color: blue;
+            margin-left: 50px; 
+        }
+
+        button{
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Log-in</h1>
+
+    <form action="autenticar" method="post">
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="Seu email aqui ">
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="Sua senha aqui">
+
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>
